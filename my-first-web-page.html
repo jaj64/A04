@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- DOCTYPE html is needed to specify that this is an HTML5 document.-->
+<html lang="en">
+<!-- This is needed to specify the language of the document which is English.-->
+<head>
+    <!-- This is the head of the document where all the metadata and links to stylesheets go. -->
+    <meta charset="UTF-8">
+    <!-- This is a meta tag that tells the web browser what character set to use when 
+     translating code into readable text on the website.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is a meta tag that tells mobile browsers to adjust the width and overall scaling of a 
+ website to fit the screen size of the device being used.-->
+    <title>IS117 - Intro to Website Development</title>
+    <!-- This provides the title of the webpage that appears in the browser tab.-->
+    <style>
+        /* This is used to input the CSS associated with the HTML. */
+        body {
+        /* This is used to specify that the body will be modified with the below attributes.*/
+            margin: 0;
+        /* This is used to remove all outer spacing around a body element. */   
+            font-family: Arial, sans-serif;
+        /* This will provide the font family of the text on the website. */
+            background-color: #f4f4f4;
+        /* This will provide the background color of the website. */
+            color: #333;
+        /* This will provide the color of the text in the website. */
+            min-height: 100vh;
+        /* This means an element will have a minimum height of 100% of the viewport height. */
+            display: flex;
+        /* This turns the HTML into a flex container, allowing for flexible layout of its children. */
+            flex-direction: column;
+        /* This specifies that the flex items will be arranged in a column layout. */
+        }
+
+        header {
+        /* This is used to specify that the header will be modified with the below attributes. */
+            background-color: #1f4e79;
+        /* This will provide the background color of the header. */
+            color: white;
+        /* This will provide the color of the text in the header. */
+            text-align: center;
+        /* This will center the text in the header. */
+            padding: 30px;
+        /* This will provide the padding of the header which will create space inside an element, between its actual content
+        and its outer border. */
+        }
+
+        main {
+        /* This is used to specify that the main will be modified with the below attributes. */ 
+            flex: 1;
+        /* This allows the main content area to grow and fill the available space in the flex container. */
+            max-width: 800px;
+        /* This sets the maximum width of the main content area to 800 pixels. */
+            width: 90%;
+        /* This sets the width of the main content area to 90% of its parent container. */
+            margin: 40px auto;
+        /* This centers the main content area horizontally and adds a top and bottom margin of 40 pixels. */
+            background-color: white;
+        /* This sets the background color of the main content area to white. */
+            padding: 30px;
+        /* This adds padding inside the main content area, creating space between the content and the edges of the container. */
+            border-radius: 8px;
+        /* This rounds the corners of the main content area with a radius of 8 pixels. */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        /* This adds a subtle shadow effect to the main content area, giving it a slightly elevated appearance. */
+        }
+
+        h1 {
+        /* This is used to specify that all h1 will be modified with the below attributes. */
+            margin-bottom: 10px;
+        /* This adds a bottom margin of 10 pixels to the h1 element, creating space below it. */
+        }
+
+        .course-info {
+        /* This is used to denote that the class course-info will be modified with the below attributes. */
+            line-height: 1.8;
+        /* This sets the line height for the text within the course-info class to 1.8, which increases the vertical spacing between 
+        lines of text. */
+            font-size: 18px;
+        /* This sets the font size for the text within the course-info class to 18 pixels. */
+        }
+
+        footer {
+        /* This is used to specify that the footer will be modified with the below attributes. */
+            background-color: #222;
+        /* This sets the background color of the footer to a dark shade (#222). */
+            color: white;
+        /* This sets the text color of the footer to white. */
+            text-align: center;
+        /* This centers the text within the footer. */
+            padding: 20px;
+        /* This adds padding inside the footer, creating space between the content and the edges of the footer. */
+        }
+    </style>
+    <!--This is to show the end of the style code and CSS.-->
+</head>
+<!-- This denotes the end of the code dedicated to the head of the document-->
+<body>
+<!-- This denotes the beginning of code dedicated to the body -->
+    <header>
+    <!-- This shows what will be included in the header at the top of the website. -->
+        <h1>Intro to Website Development</h1>
+        <!-- This describes the main title of the page -->
+        <p>IS117 - Section 001</p>
+        <!-- This is a paragraph element that describes the course number and section number-->
+    </header> 
+    <!-- This denotes the end of the header section. -->
+
+    <main>
+    <!-- This denotes the beginning of the main content section of the website. -->
+        <h2>Course Information</h2>
+        <!-- This is a subheading for the course information section. -->
+        <div class="course-info">
+        <!-- This is a division element that contains the class course-info. It contains the main content of the page below.-->
+            <p><strong>Username:</strong> jaj64</p>
+            <!-- This is a paragraph element that displays the username and is bolded.-->
+            <p><strong>Course Name:</strong> Intro to Website Development</p>
+            <!-- This is a paragraph element that displays the course name and is bolded.-->
+            <p><strong>Course Number:</strong> IS117</p>
+            <!-- This is a paragraph element that displays the course number and is bolded.-->
+            <p><strong>Section:</strong> 001</p>
+            <!-- This is a paragraph element that displays the section number and is bolded.-->
+        </div>
+        <!-- This denotes the end of the course information section. -->
+    </main>
+    <!-- This denotes the end of the main content section. -->
+
+    <footer>
+        <!-- This denotes the beginning of the footer section which defines the closing section of the website. -->  
+        &copy; Joshua John | Due Date: 10/06/26
+        <!-- This contains the code needed to display the copyright symbol and other information including name 
+         and due date. -->
+    </footer>
+    <!-- This denotes the end of the footer section. -->
+
+</body>
+<!-- This denotes the end of the body section. -->
+</html>
+<!-- This is the closing tag for the HTML document. -->
